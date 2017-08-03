@@ -20,8 +20,12 @@
             <span>链接</span>
           </router-link>
           <router-link :to="{name:'account'}" tag="li">
-            <i class="fa fa-user fa-fw"></i>
-            <span>账户</span>
+            <i class="fa fa-film fa-fw"></i>
+            <span>ss</span>
+          </router-link>
+          <router-link :to="{name:'book'}" tag="li">
+            <i class="fa fa-film fa-fw"></i>
+            <span>书单</span>
           </router-link>
         </ul>
       </menu>
