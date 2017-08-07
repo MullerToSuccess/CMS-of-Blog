@@ -3,9 +3,9 @@
 
 > 一个前端基于Vue.js，后端基于Node.js的博客内容管理器
 
-> 此分支是Vue2.0版 [1.0版](https://github.com/ycwalker/CMS-of-Blog/tree/vue1.0)
+> Vue2.0版
 
-### [Demo](http://115.28.90.175/)
+
 
 ## Features
 
