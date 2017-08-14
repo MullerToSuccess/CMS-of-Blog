@@ -30,7 +30,7 @@
     min-width: 500px;
     .title {
       @include title();
-    }
+    }   
     table {
       @include center();
       padding-top: 100px;

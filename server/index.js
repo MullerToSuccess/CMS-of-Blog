@@ -8,7 +8,6 @@ const db = require('./db')
 const resolve = file => path.resolve(__dirname, file)
 const api = require('./api')
 const app = express()
-
 // const createBundleRenderer = require('vue-server-renderer').createBundleRenderer
 
 app.set('port', (process.env.port || 3000))
@@ -17,6 +16,7 @@ app.use(bodyParser.json())
 app.use(bodyParser.urlencoded({extended: false}))
 app.use(cookieParser())
 app.use('/dist', express.static(resolve('../dist')))
+// app.use('/src', express.static(resolve('../src')))
 app.use(api)
 
 app.post('/api/setup', function (req, res) {
